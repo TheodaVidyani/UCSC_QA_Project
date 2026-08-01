@@ -10,6 +10,8 @@ public class Constants {
 
     public static final String USER_DETAILS_ASSERTION_PATH = ASSERT_DIR + "user_details.json";
 
+    public static final String CHEMISTRY_MATERIALS_ASSERTION_PATH = ASSERT_DIR + "chemistry_materials_details.json";
+
     private Constants() {
     }
 }
