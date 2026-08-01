@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import java.time.Duration;
 
 public class ChemistryMaterialPage extends BasePage{
 
@@ -19,6 +21,7 @@ public class ChemistryMaterialPage extends BasePage{
     private By saveMaterialsLibrary = By.xpath("//button[normalize-space()='Save Materials Library']");
     private By reload = By.xpath("//button[normalize-space()='Reload']");
     private By pageBody = By.tagName("body");
+    private By chemistryMaterialsWorkspace = By.xpath("//article[.//button[normalize-space()='Clone From Syllabus'] and .//button[normalize-space()='Save Materials Library'] and .//button[normalize-space()='Reload']]");
 
     // The constructor is mandatory to pass the driver to the BasePage
     public ChemistryMaterialPage(WebDriver driver) {
@@ -50,6 +53,23 @@ public class ChemistryMaterialPage extends BasePage{
                 || isElementVisible(reload);
 
         return hasRenderedContent && hasWorkspaceElements;
+    }
+
+    public boolean isChemistryMaterialsSectionHeaderVisible() {
+        return isElementVisible(pageHeader);
+    }
+
+    public String getChemistryMaterialsTabText() {
+        return getText(chemistryMaterialsTab);
+    }
+
+    public boolean isChemistryMaterialsTabActive() {
+        return isChemistryMaterialsSectionHeaderVisible();
+    }
+
+    public void waitForChemistryMaterialsTabActive() {
+        new org.openqa.selenium.support.ui.WebDriverWait(driver, Duration.ofSeconds(30))
+                .until(ExpectedConditions.visibilityOfElementLocated(pageHeader));
     }
 
 }
