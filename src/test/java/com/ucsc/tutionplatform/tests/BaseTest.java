@@ -1,5 +1,8 @@
 package com.ucsc.tutionplatform.tests;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import com.ucsc.tutionplatform.core.DriverManager;
 import com.ucsc.tutionplatform.database.DatabaseHandler;
 import com.ucsc.tutionplatform.models.TestData;
@@ -41,6 +44,14 @@ public class BaseTest {
                 System.getProperty("headless", "false"));
 
         ChromeOptions options = new ChromeOptions();
+
+        // Added to disable Chrome password manager / password leak warning popup
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("credentials_enable_service", false);
+        prefs.put("profile.password_manager_enabled", false);
+        prefs.put("profile.password_manager_leak_detection", false);
+
+        options.setExperimentalOption("prefs", prefs);
 
         if (headless) {
             options.addArguments("--headless=new");

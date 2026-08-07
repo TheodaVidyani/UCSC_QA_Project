@@ -13,6 +13,9 @@ public class Constants {
             "http://localhost:3000/user-details"
     );
 
+    public static final String CLASS_VIDEO_ASSERTION_PATH = ASSERT_DIR + "class_videos.json";
+
+
     private Constants() {
     }
 }
