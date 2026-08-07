@@ -6,3 +6,4 @@ public class BasePage {
 
     protected static final SeleniumCardrige seleniumCardrige = new SeleniumCardrige();
 }
+                    
