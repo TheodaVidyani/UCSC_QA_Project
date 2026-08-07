@@ -9,6 +9,9 @@ public class TestData {
     private String name;
     private String address;
 
+    private String videoTopic;
+    private String videoUrl;
+
     public TestData() {
     }
 
@@ -38,5 +41,22 @@ public class TestData {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+
+    public String getVideoTopic() {
+        return videoTopic;
+    }
+
+    public void setVideoTopic(String videoTopic) {
+        this.videoTopic = videoTopic;
+    }
+
+    public String getVideoUrl() {
+        return videoUrl;
+    }
+
+    public void setVideoUrl(String videoUrl) {
+        this.videoUrl = videoUrl;
     }
 }
