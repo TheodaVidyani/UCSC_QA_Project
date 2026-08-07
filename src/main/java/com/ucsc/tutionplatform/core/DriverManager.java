@@ -1,3 +1,5 @@
+// This is where the framework controls the browser.
+
 package com.ucsc.tutionplatform.core;
 
 import org.openqa.selenium.WebDriver;

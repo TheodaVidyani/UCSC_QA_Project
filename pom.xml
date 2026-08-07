@@ -76,3 +76,5 @@
     </build>
 
 </project>
+
+<!-- mvn clean test -Dsurefire.suiteXmlFiles=UI_Suite.xml -->

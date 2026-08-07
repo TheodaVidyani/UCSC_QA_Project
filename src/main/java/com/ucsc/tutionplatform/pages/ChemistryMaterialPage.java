@@ -1,3 +1,6 @@
+// Pages represent application screens/components. 
+// Contains locators and methods/actions to interact with the elements on the page.
+
 package com.ucsc.tutionplatform.pages;
 
 import org.openqa.selenium.By;
