@@ -12,6 +12,9 @@ public class TestData {
     private String videoTopic;
     private String videoUrl;
 
+    private String targetNode;
+    private String otherNode;
+
     public TestData() {
     }
 
@@ -59,4 +62,21 @@ public class TestData {
     public void setVideoUrl(String videoUrl) {
         this.videoUrl = videoUrl;
     }
+
+        public String getTargetNode() {
+        return targetNode;
+    }
+
+    public void setTargetNode(String targetNode) {
+        this.targetNode = targetNode;
+    }
+
+    public String getOtherNode() {
+        return otherNode;
+    }
+
+    public void setOtherNode(String otherNode) {
+        this.otherNode = otherNode;
+    }
+
 }

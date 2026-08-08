@@ -157,8 +157,16 @@ public class SeleniumCardrige {
     }
 
     public boolean isDisplayed(By locator) {
-        List<WebElement> elements = findElements(locator);
-        return !elements.isEmpty() && elements.get(0).isDisplayed();
+        try {
+            List<WebElement> elements = findElements(locator);
+            return !elements.isEmpty() && elements.get(0).isDisplayed();
+        } catch (org.openqa.selenium.StaleElementReferenceException exception) {
+            // Re-query element list if DOM re-rendered during verification
+            List<WebElement> elements = findElements(locator);
+            return !elements.isEmpty() && elements.get(0).isDisplayed();
+        } catch (Exception exception) {
+            return false;
+        }
     }
 
     public boolean isEnabled(By locator) {

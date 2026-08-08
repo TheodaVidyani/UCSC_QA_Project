@@ -7,12 +7,14 @@ import org.openqa.selenium.By;
 
 public class ChemistryMaterialPage extends BasePage {
 
+    //Tab Locator
     private final By chemistryMaterialsTab =
             By.xpath("//button[normalize-space()='Chemistry Materials']");
 
     private final By pageHeader =
             By.xpath("//h1|//div[contains(@class, 'card-head')]");
 
+    //Action Controls
     private final By cloneFromSyllabusButton =
             By.xpath("//button[normalize-space()='Clone From Syllabus']");
 
@@ -51,6 +53,24 @@ public class ChemistryMaterialPage extends BasePage {
         );
     }
 
+    // Dynamic Node Locators
+    private By getNodeHeader(String nodeName) {
+        return By.xpath("//div[contains(@class,'syllabus-node-main')]//strong[normalize-space()='" + nodeName + "']");
+    }
+
+    private By getAddMaterialButtonForNode(String nodeName) {
+        return By.xpath("//div[contains(@class,'syllabus-node-block')][.//strong[normalize-space()='" + nodeName + "']]//button[normalize-space()='Add Material']");
+    }
+
+    // Material Entry Form Controls (Exact DOM Locators from Screenshot)
+    private final By pdfBadge = By.xpath("//div[contains(@class,'practical-resource-row')]//span[contains(@class,'chip') and normalize-space()='PDF']");
+    private final By materialTopicInput = By.xpath("//input[@placeholder='Material topic']");
+    private final By uploadPdfDisplayInput = By.xpath("//input[@placeholder='Upload a PDF file']");
+    private final By fileUploadInput = By.xpath("//input[@type='file' and contains(@accept, 'pdf')]");
+    private final By removeButton = By.xpath("//button[contains(@class,'danger') and normalize-space()='Remove']");
+    private final By addAnotherMaterialButton = By.xpath("//button[normalize-space()='Add Another Material']");
+    
+    
     public void clickChemistryMaterialsTab() {
         seleniumCardrige.click(chemistryMaterialsTab);
     }
@@ -114,5 +134,17 @@ public class ChemistryMaterialPage extends BasePage {
         return seleniumCardrige.getText(
                 levelLabelForNode(nodeTitle)
         );
+    }
+
+    // Verification method checking all 6 controls requested in CM-AM-001
+    public boolean isMaterialEntryFormDisplayed() {
+        // Wait for the form input to render completely in DOM
+        seleniumCardrige.waitUntilVisible(materialTopicInput);
+
+        return seleniumCardrige.isDisplayed(pdfBadge)
+            && seleniumCardrige.isDisplayed(materialTopicInput)
+            && seleniumCardrige.isDisplayed(uploadPdfDisplayInput)
+            && seleniumCardrige.isDisplayed(removeButton)
+            && seleniumCardrige.isDisplayed(addAnotherMaterialButton);
     }
 }
