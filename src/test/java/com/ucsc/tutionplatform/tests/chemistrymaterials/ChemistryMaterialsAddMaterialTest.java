@@ -54,4 +54,34 @@ public class ChemistryMaterialsAddMaterialTest extends ChemistryMaterialsBaseTes
                 "Neighboring node '1.1 QA Fundamentals' should remain unchanged and displayed"
         );
     }
+
+    @Test(description = "CM-AM-002", dataProvider = "commonDataProvider")
+    public void verifyValidMaterialTopicCanBeEnteredAndRetained(TestData testData) {
+
+        // Setup: Open Chemistry Materials tab & clone syllabus
+        chemistryMaterialPage.clickChemistryMaterialsTab();
+        chemistryMaterialPage.clickCloneFromSyllabus();
+
+        // Step 1: Click Add Material under target node
+        chemistryMaterialPage.clickAddMaterialForNode(testData.getTargetNode());
+
+        // Step 2: Enter valid topic text
+        chemistryMaterialPage.enterMaterialTopic(testData.getMaterialTopic());
+
+        // Step 3: Move focus away from topic field
+        chemistryMaterialPage.blurFocusFromTopicInput();
+
+        // Expectation 1 & 2: Field accepts text and retains exact value after focus moves away
+        getSoftAssert().assertEquals(
+                chemistryMaterialPage.getEnteredMaterialTopic(),
+                testData.getMaterialTopic(),
+                "Entered material topic value should be retained accurately after focus blur"
+        );
+
+        // Expectation 3 & 4: Form remains visible without page refresh or crash
+        getSoftAssert().assertTrue(
+                chemistryMaterialPage.isMaterialEntryFormDisplayed(),
+                "Material form should remain active and visible without unexpected refresh"
+        );
+    }
 }

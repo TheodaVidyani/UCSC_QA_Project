@@ -121,6 +121,19 @@ public class ChemistryMaterialPage extends BasePage {
         );
     }
 
+    // Actions for CM-AM-002
+    public void enterMaterialTopic(String topic) {
+        seleniumCardrige.type(materialTopicInput, topic);
+    }
+
+    public String getEnteredMaterialTopic() {
+        return seleniumCardrige.getValue(materialTopicInput);
+    }
+
+    public void blurFocusFromTopicInput() {
+        // Click another element (such as the PDF badge) to trigger blur focus
+        seleniumCardrige.click(pdfBadge);
+    }
     private By levelLabelForNode(String nodeTitle) {
         return By.xpath(
                 "(//*[normalize-space()='" + nodeTitle + "']" +

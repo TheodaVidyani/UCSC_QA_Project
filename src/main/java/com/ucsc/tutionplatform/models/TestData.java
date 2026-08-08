@@ -15,6 +15,8 @@ public class TestData {
     private String targetNode;
     private String otherNode;
 
+    private String materialTopic;
+
     public TestData() {
     }
 
@@ -79,4 +81,9 @@ public class TestData {
         this.otherNode = otherNode;
     }
 
+    public String getMaterialTopic() {
+        return materialTopic;
+    }
+
+    public void setMaterialTopic(String materialTopic) { this.materialTopic = materialTopic; }
 }
