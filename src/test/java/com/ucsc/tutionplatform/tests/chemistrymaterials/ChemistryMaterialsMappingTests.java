@@ -4,7 +4,6 @@ import com.ucsc.tutionplatform.consts.Constants;
 import com.ucsc.tutionplatform.database.DatabaseHandler;
 import com.ucsc.tutionplatform.pages.ChemistryMaterialPage;
 import com.ucsc.tutionplatform.pages.LoginPage;
-import com.ucsc.tutionplatform.utils.ConfigReader;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -13,13 +12,8 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Map;
 
-import static com.ucsc.tutionplatform.consts.Constants.USER_DETAILS_URL;
-
 public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
 
-    public void navigateToUserDetailsPage() {
-        driver().get(USER_DETAILS_URL);
-    }
     private ChemistryMaterialPage chemistryMaterialPage;
     private LoginPage loginPage;
 
@@ -33,9 +27,7 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
         chemistryMaterialPage = new ChemistryMaterialPage();
         loginPage = new LoginPage();
 
-        driver().get(
-                ConfigReader.getProperty(USER_DETAILS_URL)
-        );
+        driver().get(Constants.USER_DETAILS_URL);
 
         loginPage.loginAsAdmin("groupa", "123456");
     }
@@ -47,9 +39,7 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
         parentNodeTitle = null;
         childNodeTitle = null;
 
-        driver().get(
-                ConfigReader.getProperty(USER_DETAILS_URL)
-        );
+        driver().get(Constants.USER_DETAILS_URL);
     }
 
     @Test(description = "CM-MD-002")
