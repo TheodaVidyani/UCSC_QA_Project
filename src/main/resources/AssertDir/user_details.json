@@ -3,10 +3,12 @@
     "tc_id": "TC-001",
     "data": [
       {
+        "userId": "USR-101",
         "name": "sanath",
         "address": "Colombo"
       },
       {
+        "userId": "USR-102",
         "name": "Nipuni",
         "address": "Moratuwa"
       }

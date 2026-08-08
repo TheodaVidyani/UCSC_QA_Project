@@ -1,5 +1,6 @@
 package com.ucsc.tutionplatform.tests.chemistrymaterials;
 
+import com.ucsc.tutionplatform.consts.Constants;
 import com.ucsc.tutionplatform.database.DatabaseHandler;
 import com.ucsc.tutionplatform.pages.ChemistryMaterialPage;
 import com.ucsc.tutionplatform.pages.LoginPage;
@@ -12,10 +13,13 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Map;
 
+import static com.ucsc.tutionplatform.consts.Constants.USER_DETAILS_URL;
+
 public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
 
-    private static final String APP_URL_PROPERTY = "user.default.url";
-
+    public void navigateToUserDetailsPage() {
+        driver().get(USER_DETAILS_URL);
+    }
     private ChemistryMaterialPage chemistryMaterialPage;
     private LoginPage loginPage;
 
@@ -30,7 +34,7 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
         loginPage = new LoginPage();
 
         driver().get(
-                ConfigReader.getProperty(APP_URL_PROPERTY)
+                ConfigReader.getProperty(USER_DETAILS_URL)
         );
 
         loginPage.loginAsAdmin("groupa", "123456");
@@ -44,7 +48,7 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
         childNodeTitle = null;
 
         driver().get(
-                ConfigReader.getProperty(APP_URL_PROPERTY)
+                ConfigReader.getProperty(USER_DETAILS_URL)
         );
     }
 

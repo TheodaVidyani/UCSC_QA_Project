@@ -8,6 +8,12 @@
                     <include name="verifyThatUserCanBeCreatedByProvidingMandatoryFieldsOnly"/>
                 </methods>
             </class>
+
+            <class name="com.ucsc.tutionplatform.tests.chemistrymaterials.ChemistryMaterialsAddMaterialTest">
+                <methods>
+                    <include name="verifyAddMaterialOpensEntryForm"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

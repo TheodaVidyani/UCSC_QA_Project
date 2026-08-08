@@ -58,6 +58,10 @@ public class BaseTest {
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--window-size=1920,1080");
+        }else {
+            // Start maximized via options instead of calling driver().manage().window().maximize()
+            options.addArguments("--start-maximized");
+            options.addArguments("--remote-allow-origins=*");
         }
 
         DriverManager.setDriver(new ChromeDriver(options));
