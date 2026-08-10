@@ -8,4 +8,5 @@ public class ChemistryMaterialsBaseTest extends BaseTest {
     public ChemistryMaterialsBaseTest() {
         super(Constants.CHEMISTRY_MATERIALS_ASSERTION_PATH);
     }
+
 }
