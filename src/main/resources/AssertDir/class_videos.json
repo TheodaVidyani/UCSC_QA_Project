@@ -7,5 +7,16 @@
         "videoUrl": "https://www.youtube.com/watch?v=nUDlHfiPOeM&t=5361s"
       }
     ]
+  },
+  {
+    "tc_id": "CV_TC_007",
+    "data": [
+      {
+        "startDate": "08/12/2026",
+        "endDate": "09/12/2026",
+        "name": "Juliet Mayer",
+        "videoTopic": "Periodic Table"
+      }
+    ]
   }
 ]

@@ -35,7 +35,7 @@ public class AddClassVideoTest extends ClassVideosBaseTest {
         classVideosPage.enterVideoDetails(testData.getVideoTopic(), testData.getVideoUrl());
         classVideosPage.clickSaveVideoLibrary();
         classVideosPage.clickReload();
-        getSoftAssert().assertEquals(classVideosPage.getVideoTopicText(), testData.getVideoTopic());
-        getSoftAssert().assertEquals(classVideosPage.getVideoUrlText(), testData.getVideoUrl());
+        getSoftAssert().assertEquals(classVideosPage.getVideoTopicText("1"), testData.getVideoTopic());
+        getSoftAssert().assertEquals(classVideosPage.getVideoUrlText("1"), testData.getVideoUrl());
     }
 }

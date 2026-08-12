@@ -17,6 +17,9 @@ public class TestData {
 
     private String materialTopic;
 
+    private String startDate;
+    private String endDate;
+
     public TestData() {
     }
 
@@ -86,4 +89,20 @@ public class TestData {
     }
 
     public void setMaterialTopic(String materialTopic) { this.materialTopic = materialTopic; }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
+    }
+
+    public String getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
+    }
 }
