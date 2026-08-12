@@ -10,9 +10,6 @@ import org.testng.annotations.BeforeClass;
 
 public class ClassVideosBaseTest extends BaseTest {
 
-
-    private ClassVideosPage classVideosPage;
-
     public ClassVideosBaseTest() {
         super(Constants.CLASS_VIDEO_ASSERTION_PATH);
     }
