@@ -16,4 +16,17 @@
             </class>
         </classes>
     </test>
+
+    <test verbose="2" preserve-order="true" name="UCSC2026B2UI - Syllabus Module">
+        <classes>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusBasicPageTests"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusAddTopicTest"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusEditTopicTest"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusDeleteTopicTest"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusDragAndDropTest"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusSaveAndReloadTest"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusValidationAndFlowTest"/>
+            <class name="com.ucsc.tutionplatform.tests.syllabus.SyllabusTreeCreationFlowTest"/>
+        </classes>
+    </test>
 </suite>
