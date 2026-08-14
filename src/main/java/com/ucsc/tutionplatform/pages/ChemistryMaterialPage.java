@@ -1,62 +1,83 @@
 package com.ucsc.tutionplatform.pages;
 
 import org.openqa.selenium.By;
-
+import org.openqa.selenium.TimeoutException;
 public class ChemistryMaterialPage extends BasePage {
 
     // Tab Locator
     private final By chemistryMaterialsTab =
             By.xpath("//button[normalize-space()='Chemistry Materials']");
 
-    private final By pageHeader =
-            By.xpath("//h1|//div[contains(@class, 'card-head')]");
-
     // Action Controls
     private final By cloneFromSyllabusButton =
             By.xpath("//button[normalize-space()='Clone From Syllabus']");
 
     // Dynamic Node Locators
+    private String nodeCardXPath(String nodeTitle) {
+        String safeNodeTitle = toXPathLiteral(nodeTitle);
+
+        return "//strong[normalize-space(.)=" + safeNodeTitle + "]" +
+                "/ancestor::div[" +
+                "contains(" +
+                "concat(' ', normalize-space(@class), ' '), " +
+                "' syllabus-node-card '" +
+                ")" +
+                "][1]";
+    }
+
     private By nodeCard(String nodeTitle) {
-        return By.xpath(
-                "(//*[normalize-space()='" + nodeTitle + "']" +
-                        " | //input[@value='" + nodeTitle + "'])" +
-                        "/ancestor::div[contains(@class,'syllabus-node-card')][1]"
-        );
+        return By.xpath(nodeCardXPath(nodeTitle));
     }
 
     private By addMaterialButtonForNode(String nodeTitle) {
         return By.xpath(
-                "(//*[normalize-space()='" + nodeTitle + "']" +
-                        " | //input[@value='" + nodeTitle + "'])" +
-                        "/ancestor::div[contains(@class,'syllabus-node-card')][1]" +
-                        "//button[normalize-space()='Add Material']"
+                nodeCardXPath(nodeTitle) +
+                        "/child::div[" +
+                        "contains(" +
+                        "concat(' ', normalize-space(@class), ' '), " +
+                        "' syllabus-node-actions '" +
+                        ")" +
+                        "]" +
+                        "/child::button[" +
+                        "@type='button' and " +
+                        "normalize-space(.)='Add Material'" +
+                        "]"
         );
     }
 
     private By noMaterialsMessageForNode(String nodeTitle) {
         return By.xpath(
-                "(//*[normalize-space()='" + nodeTitle + "']" +
-                        " | //input[@value='" + nodeTitle + "'])" +
-                        "/ancestor::div[contains(@class,'syllabus-node-card')][1]" +
-                        "//*[normalize-space()='No materials added yet.']"
+                nodeCardXPath(nodeTitle) +
+                        "/descendant::*[" +
+                        "not(*) and " +
+                        "normalize-space(.)='No materials added yet.'" +
+                        "]"
         );
     }
 
     private By materialTopicInputForNode(String nodeTitle) {
         return By.xpath(
-                "(//*[normalize-space()='" + nodeTitle + "']" +
-                        " | //input[@value='" + nodeTitle + "'])" +
-                        "/ancestor::div[contains(@class,'syllabus-node-card')][1]" +
-                        "//input[@placeholder='Material topic']"
+                nodeCardXPath(nodeTitle) +
+                        "/descendant::input[@placeholder='Material topic']"
         );
     }
 
     private By levelLabelForNode(String nodeTitle) {
+        String safeNodeTitle = toXPathLiteral(nodeTitle);
+
         return By.xpath(
-                "(//*[normalize-space()='" + nodeTitle + "']" +
-                        " | //input[@value='" + nodeTitle + "'])" +
-                        "/ancestor::div[contains(@class,'syllabus-node-card')][1]" +
-                        "//span[contains(@class,'chip') and contains(@class,'subtle')]"
+                "//strong[normalize-space(.)=" + safeNodeTitle + "]" +
+                        "/preceding-sibling::span[" +
+                        "contains(" +
+                        "concat(' ', normalize-space(@class), ' '), " +
+                        "' chip '" +
+                        ") and " +
+                        "contains(" +
+                        "concat(' ', normalize-space(@class), ' '), " +
+                        "' subtle '" +
+                        ") and " +
+                        "starts-with(normalize-space(.), 'Level ')" +
+                        "][1]"
         );
     }
 
@@ -96,6 +117,27 @@ public class ChemistryMaterialPage extends BasePage {
             By.xpath("//button[normalize-space()='Add Another Material']");
 
 
+
+    private static String toXPathLiteral(String value) {
+
+        if (value == null) {
+            throw new IllegalArgumentException("XPath value cannot be null");
+        }
+
+        if (!value.contains("'")) {
+            return "'" + value + "'";
+        }
+
+        if (!value.contains("\"")) {
+            return "\"" + value + "\"";
+        }
+
+        String[] parts = value.split("'", -1);
+
+        return "concat('" +
+                String.join("', \"'\", '", parts) +
+                "')";
+    }
     public void clickChemistryMaterialsTab() {
         seleniumCardrige.click(chemistryMaterialsTab);
     }
@@ -116,7 +158,7 @@ public class ChemistryMaterialPage extends BasePage {
         try {
             seleniumCardrige.waitUntilVisible(nodeCard(nodeTitle));
             return true;
-        } catch (Exception exception) {
+        } catch (TimeoutException exception) {
             return false;
         }
     }
@@ -172,6 +214,7 @@ public class ChemistryMaterialPage extends BasePage {
         return seleniumCardrige.isDisplayed(pdfBadge)
                 && seleniumCardrige.isDisplayed(materialTopicInput)
                 && seleniumCardrige.isDisplayed(uploadPdfDisplayInput)
+                && seleniumCardrige.isDisplayed(fileUploadInput)
                 && seleniumCardrige.isDisplayed(removeButton)
                 && seleniumCardrige.isDisplayed(addAnotherMaterialButton);
     }
