@@ -1,0 +1,1457 @@
+[
+    {
+        "tc_id":  "SYL-TC-001",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "User: admin_user / Role: Admin"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-002",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "User: student001 / Role: Student"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-003",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Expired admin session"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-004",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "N/A"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-005",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Browser refresh"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-006",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Syllabus API unavailable"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-007",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Empty syllabus"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-008",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Empty tree"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-009",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Empty tree"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-010",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-011",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-012",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: blank"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-013",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: five blank spaces"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-014",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-015",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Acids \u0026 Bases"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-016",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic name with 255 characters"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-017",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Parent: Atomic Structure / Sub topic: Protons"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-018",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Child topic: Charge of Proton"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-019",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Organic Chemistry \u003e Hydrocarbons \u003e Alkanes \u003e Methane"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-020",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Sub topic: Introduction"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-021",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Sub topic: Introduction"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-022",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Sub topic: Isotopes"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-023",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Old: Atomic Structure / New: Atomic Structure and Isotopes"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-024",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Old: Ionic Bonding / New: Ionic Bonds"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-025",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "New topic name: blank"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-026",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "New topic name: spaces only"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-027",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Rename Periodic Table to Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-028",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "New name: Acids \u0026 Bases (pH / pOH)"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-029",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic name near max length"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-030",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Periodic Table"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-031",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-032",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Chemical Bonding"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-033",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Sub topic: Ionic Bonding"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-034",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Stoichiometry"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-035",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Isotopes to Chemical Bonding"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-036",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Protons to root drop area"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-037",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Periodic Table under Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-038",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Drag Atomic Structure to itself"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-039",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Atomic Structure under Protons"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-040",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Hydrocarbons to Physical Chemistry"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-041",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Mole Concept"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-042",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Chemical Bonding"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-043",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Chemical Bonding"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-044",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Neutrons"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-045",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "First topic"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-046",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Last topic"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-047",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"New order: Periodic Table"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-048",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Physical Chemistry \u003e Mole Concept \u003e Chemical Calculations"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-049",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Rename pH to pH Scale"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-050",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Delete Stoichiometry"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-051",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Save button clicked twice quickly"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-052",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Chemical Equilibrium"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-053",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Reaction Kinetics"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-054",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Saved topics available"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-055",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Unsaved topic: Redox Reactions"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-056",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Rename to Organic Chemistry Updated"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-057",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Reload syllabus"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-058",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-059",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Physical Chemistry \u003e Acids and Bases \u003e pH"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-060",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Rename Mole Concept to Mole Calculations"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-061",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Delete Periodic Table"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-062",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Reload data"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-063",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Empty syllabus"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-064",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Add Root Topic"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-065",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Syllabus tab"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-066",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Long name: Introduction to Advanced Organic Reaction Mechanisms and Applications"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-067",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Screen width around 768px"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-068",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Screen width around 375px"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-069",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Large syllabus tree"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-070",
+        "data":  [
+                     {
+                         "topic":  "  Trimming Test Topic  ",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: \u0027 Atomic Structure \u0027"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-071",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: \u003cscript\u003ealert(\u0027test\u0027)\u003c/script\u003e"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-072",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: \u0027 OR \u00271\u0027=\u00271"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-073",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: @@@@@"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-074",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: Chapter 01 - Matter"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-075",
+        "data":  [
+                     {
+                         "topic":  "H2SO4 Preparation",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Topic: H2SO4 Preparation"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-076",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "API request: add topic Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-077",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Save syllabus payload"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-078",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Payload: Physical Chemistry \u003e Mole Concept"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-079",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "GroupC syllabus and another group syllabus"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-080",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "50 root topics"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-081",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"50 root topics"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-082",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Kinetics under Physical Chemistry"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-083",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Large tree"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-084",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Saved topic: Electrochemistry"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-085",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Saved topic: Redox Reactions"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-086",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Unsaved topic: Thermodynamics"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-087",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Admin A adds Topic A"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-088",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Empty topic name"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-089",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Duplicate topic: Atomic Structure"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-090",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Any unsaved tree"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-091",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Reload data"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-092",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"First empty topic"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-093",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Physical Chemistry \u003e Mole Concept \u003e Relative Atomic Mass"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-094",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Inorganic Chemistry \u003e Periodic Table \u003e Groups"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-095",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Organic Chemistry \u003e Hydrocarbons \u003e Alkanes"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-096",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "Move Hydrocarbons under Physical Chemistry"
+                     }
+                 ]
+    },
+    {
+        "tc_id":  "SYL-TC-097",
+        "data":  [
+                     {
+                         "topic":  "Atomic Structure",
+                         "parentTopic":  "Physical Chemistry",
+                         "subTopic":  "Mole Concept",
+                         "childTopic":  "Relative Atomic Mass",
+                         "newTopicName":  "Atomic Structure Updated",
+                         "targetNode":  "1. Quality Assurance Theory",
+                         "otherNode":  "1.1 QA Fundamentals",
+                         "testDataRaw":  "\"Delete all"
+                     }
+                 ]
+    }
+]

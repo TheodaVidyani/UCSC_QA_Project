@@ -14,6 +14,7 @@ public class Constants {
     );
 
     public static final String CLASS_VIDEO_ASSERTION_PATH = ASSERT_DIR + "class_videos.json";
+    public static final String SYLLABUS_ASSERTION_PATH = ASSERT_DIR + "syllabus.json";
 
 
     private Constants() {
