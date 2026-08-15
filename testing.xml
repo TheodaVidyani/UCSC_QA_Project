@@ -1,0 +1,11 @@
+<suite name="UI Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNG"/>
+    </listeners>
+
+    <test name="UI Tests">
+        <packages>
+            <package name="com.ucsc.tutionplatform.tests.*"/>
+        </packages>
+    </test>
+</suite>

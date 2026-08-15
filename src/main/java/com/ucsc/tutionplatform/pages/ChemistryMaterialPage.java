@@ -2,11 +2,18 @@ package com.ucsc.tutionplatform.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
+
 public class ChemistryMaterialPage extends BasePage {
 
-    // Tab Locator
+    // Tab Locators
     private final By chemistryMaterialsTab =
             By.xpath("//button[normalize-space()='Chemistry Materials']");
+
+    private final By activeChemistryMaterialsTab = 
+            By.xpath("//button[contains(@class,'switcher') and contains(@class,'active') and normalize-space()='Chemistry Materials']");
+
+    private final By pageHeader =
+            By.xpath("//h1|//div[contains(@class, 'card-head')]");
 
     // Action Controls
     private final By cloneFromSyllabusButton =
@@ -116,10 +123,13 @@ public class ChemistryMaterialPage extends BasePage {
     private final By addAnotherMaterialButton =
             By.xpath("//button[normalize-space()='Add Another Material']");
 
+    private final By chemistryMaterialsCard = 
+            By.xpath("//article[contains(@class,'detail-card') and contains(@class,'class-videos-toolbar-card')]");
 
+    private final By materialMappingCard = 
+            By.xpath("//article[contains(@class,'user-list-card') and contains(@class,'syllabus-tree-card')]");
 
     private static String toXPathLiteral(String value) {
-
         if (value == null) {
             throw new IllegalArgumentException("XPath value cannot be null");
         }
@@ -138,6 +148,7 @@ public class ChemistryMaterialPage extends BasePage {
                 String.join("', \"'\", '", parts) +
                 "')";
     }
+
     public void clickChemistryMaterialsTab() {
         seleniumCardrige.click(chemistryMaterialsTab);
     }
@@ -186,6 +197,15 @@ public class ChemistryMaterialPage extends BasePage {
         return seleniumCardrige.isDisplayed(
                 materialTopicInputForNode(nodeTitle)
         );
+    }
+
+    // Actions for CHEM_MAT_OO2
+    public boolean isChemistryMaterialsSectionDisplayed() {
+        return seleniumCardrige.isDisplayed(chemistryMaterialsCard);
+    }
+
+    public boolean isMaterialMappingSectionDisplayed() {
+        return seleniumCardrige.isDisplayed(materialMappingCard);
     }
 
     public String getLevelLabelForNode(String nodeTitle) {

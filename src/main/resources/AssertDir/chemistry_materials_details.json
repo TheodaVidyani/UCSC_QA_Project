@@ -8,6 +8,15 @@
     ]
   },
   {
+  "tc_id": "CHEM_MAT_002",
+  "data": [
+    {
+      "name": "Verify Chemistry Materials Page Loads Successfully"
+    }
+  ]
+},
+
+  {
     "tc_id": "CM-AM-001",
     "data": [
       {

@@ -14,6 +14,19 @@
                     <include name="verifyAddMaterialOpensEntryForm"/>
                 </methods>
             </class>
+
+            <class name="com.ucsc.tutionplatform.tests.chemistrymaterials.ChemistryMaterialsBasicPageTests">
+                <methods>
+                    <include name="verifyAddMaterialOpensEntryForm"/>
+                </methods>
+            </class>
+
+            <class name="com.ucsc.tutionplatform.tests.chemistrymaterials.ChemistryMaterialsMappingTests">
+                <methods>
+                    <include name="verifyAddMaterialOpensEntryForm"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>

@@ -65,7 +65,7 @@ public class TestData {
         this.videoUrl = videoUrl;
     }
 
-        public String getTargetNode() {
+    public String getTargetNode() {
         return targetNode;
     }
 
