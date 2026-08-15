@@ -2,29 +2,40 @@ package com.ucsc.tutionplatform.tests.classvideos;
 
 import com.ucsc.tutionplatform.consts.Constants;
 import com.ucsc.tutionplatform.models.TestData;
-import com.ucsc.tutionplatform.pages.ClassVideos;
-import com.ucsc.tutionplatform.selenium.SeleniumCardrige;
+import com.ucsc.tutionplatform.pages.ChemistryMaterialPage;
+import com.ucsc.tutionplatform.pages.ClassVideosPage;
+import com.ucsc.tutionplatform.pages.LoginPage;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddClassVideoTest extends ClassVideosBaseTest {
 
+    private ClassVideosPage classVideosPage;
+    private LoginPage loginPage;
+
     @BeforeClass(alwaysRun = true)
-    public void navigateToUserDetailsPage() {
+    public void setupPage() {
         driver().get(Constants.USER_DETAILS_URL);
+        classVideosPage = new ClassVideosPage();
+        loginPage = new LoginPage();
+        loginPage.loginAsAdmin("groupa", "123456");
+        classVideosPage.clickClassVideosTab();
     }
 
     @BeforeMethod
     public void clickAddVideo()
     {
-
+        classVideosPage.clickAddVideo();
     }
 
     @Test(description = "CV_TC_006", dataProvider = "commonDataProvider")
     public void verifyThatVideoEntriesCanBeSavedSuccessfully(TestData testData){
 
-        System.out.println(testData.getVideoTopic());
-        getSoftAssert().assertNotNull(testData.getName(), "Name should be available in test data");
+        classVideosPage.enterVideoDetails(testData.getVideoTopic(), testData.getVideoUrl());
+        classVideosPage.clickSaveVideoLibrary();
+        classVideosPage.clickReload();
+        getSoftAssert().assertEquals(classVideosPage.getVideoTopicText(), testData.getVideoTopic());
+        getSoftAssert().assertEquals(classVideosPage.getVideoUrlText(), testData.getVideoUrl());
     }
 }
