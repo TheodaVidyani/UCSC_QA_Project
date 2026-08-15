@@ -129,6 +129,7 @@ public class ChemistryMaterialPage extends BasePage {
     private final By materialMappingCard = 
             By.xpath("//article[contains(@class,'user-list-card') and contains(@class,'syllabus-tree-card')]");
 
+    // XPath Sanitization Helper
     private static String toXPathLiteral(String value) {
         if (value == null) {
             throw new IllegalArgumentException("XPath value cannot be null");
@@ -209,9 +210,7 @@ public class ChemistryMaterialPage extends BasePage {
     }
 
     public String getLevelLabelForNode(String nodeTitle) {
-        return seleniumCardrige.getText(
-                levelLabelForNode(nodeTitle)
-        );
+        return seleniumCardrige.getText(levelLabelForNode(nodeTitle));
     }
 
     // Actions for CM-AM-002
