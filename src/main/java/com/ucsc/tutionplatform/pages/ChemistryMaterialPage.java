@@ -5,9 +5,12 @@ import org.openqa.selenium.TimeoutException;
 
 public class ChemistryMaterialPage extends BasePage {
 
-    // Tab Locator
+    // Tab Locators
     private final By chemistryMaterialsTab =
             By.xpath("//button[normalize-space()='Chemistry Materials']");
+
+    private final By activeChemistryMaterialsTab = 
+            By.xpath("//button[contains(@class,'switcher') and contains(@class,'active') and normalize-space()='Chemistry Materials']");
 
     private final By pageHeader =
             By.xpath("//h1|//div[contains(@class, 'card-head')]");
@@ -101,12 +104,25 @@ public class ChemistryMaterialPage extends BasePage {
     }
 
     // Material Entry Form Controls
-    private final By pdfBadge = By.xpath("//div[contains(@class,'practical-resource-row')]//span[contains(@class,'chip') and normalize-space()='PDF']");
-    private final By materialTopicInput = By.xpath("//input[@placeholder='Material topic']");
-    private final By uploadPdfDisplayInput = By.xpath("//input[@placeholder='Upload a PDF file']");
-    private final By fileUploadInput = By.xpath("//input[@type='file' and contains(@accept, 'pdf')]");
-    private final By removeButton = By.xpath("//button[contains(@class,'danger') and normalize-space()='Remove']");
-    private final By addAnotherMaterialButton = By.xpath("//button[normalize-space()='Add Another Material']");
+    private final By pdfBadge =
+            By.xpath("//div[contains(@class,'practical-resource-row')]" +
+                    "//span[contains(@class,'chip') and normalize-space()='PDF']");
+
+    private final By materialTopicInput =
+            By.xpath("//input[@placeholder='Material topic']");
+
+    private final By uploadPdfDisplayInput =
+            By.xpath("//input[@placeholder='Upload a PDF file']");
+
+    private final By fileUploadInput =
+            By.xpath("//input[@type='file' and contains(@accept, 'pdf')]");
+
+    private final By removeButton =
+            By.xpath("//button[contains(@class,'danger') and normalize-space()='Remove']");
+
+    private final By addAnotherMaterialButton =
+            By.xpath("//button[normalize-space()='Add Another Material']");
+
     private final By chemistryMaterialsCard = 
             By.xpath("//article[contains(@class,'detail-card') and contains(@class,'class-videos-toolbar-card')]");
 
@@ -118,14 +134,20 @@ public class ChemistryMaterialPage extends BasePage {
         if (value == null) {
             throw new IllegalArgumentException("XPath value cannot be null");
         }
+
         if (!value.contains("'")) {
             return "'" + value + "'";
         }
+
         if (!value.contains("\"")) {
             return "\"" + value + "\"";
         }
+
         String[] parts = value.split("'", -1);
-        return "concat('" + String.join("', \"'\", '", parts) + "')";
+
+        return "concat('" +
+                String.join("', \"'\", '", parts) +
+                "')";
     }
 
     public void clickChemistryMaterialsTab() {
@@ -178,6 +200,7 @@ public class ChemistryMaterialPage extends BasePage {
         );
     }
 
+    // Actions for CHEM_MAT_OO2
     public boolean isChemistryMaterialsSectionDisplayed() {
         return seleniumCardrige.isDisplayed(chemistryMaterialsCard);
     }
