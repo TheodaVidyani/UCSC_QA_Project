@@ -1,46 +1,12 @@
 package com.ucsc.tutionplatform.tests.chemistrymaterials;
 
-import com.ucsc.tutionplatform.consts.Constants;
 import com.ucsc.tutionplatform.database.DatabaseHandler;
-import com.ucsc.tutionplatform.pages.ChemistryMaterialPage;
-import com.ucsc.tutionplatform.pages.LoginPage;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.List;
 import java.util.Map;
 
 public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
-
-    private ChemistryMaterialPage chemistryMaterialPage;
-    private LoginPage loginPage;
-
-    private String testNodeTitle;
-    private String parentNodeTitle;
-    private String childNodeTitle;
-
-    @BeforeClass(alwaysRun = true)
-    public void setupPage() {
-
-        chemistryMaterialPage = new ChemistryMaterialPage();
-        loginPage = new LoginPage();
-
-        driver().get(Constants.USER_DETAILS_URL);
-
-        loginPage.loginAsAdmin("groupa", "123456");
-    }
-
-    @BeforeMethod(alwaysRun = true)
-    public void prepareTestNode() {
-
-        testNodeTitle = null;
-        parentNodeTitle = null;
-        childNodeTitle = null;
-
-        driver().get(Constants.USER_DETAILS_URL);
-    }
 
     @Test(description = "CM-MD-002")
     public void verifyLevel1AndLevel2LabelsAreCorrect() {
@@ -57,7 +23,8 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
 
         if (insertedParentRows != 1) {
             throw new IllegalStateException(
-                    "Unable to create parent syllabus node: " + parentNodeTitle
+                    "Unable to create parent syllabus node: " +
+                            parentNodeTitle
             );
         }
 
@@ -68,7 +35,8 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
 
         if (parentRows.size() != 1) {
             throw new IllegalStateException(
-                    "Unable to retrieve parent node ID for: " + parentNodeTitle
+                    "Unable to retrieve parent node ID for: " +
+                            parentNodeTitle
             );
         }
 
@@ -83,7 +51,8 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
 
         if (insertedChildRows != 1) {
             throw new IllegalStateException(
-                    "Unable to create child syllabus node: " + childNodeTitle
+                    "Unable to create child syllabus node: " +
+                            childNodeTitle
             );
         }
 
@@ -125,7 +94,8 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
 
         if (insertedRows != 1) {
             throw new IllegalStateException(
-                    "Unable to create syllabus test node: " + testNodeTitle
+                    "Unable to create syllabus test node: " +
+                            testNodeTitle
             );
         }
 
@@ -138,53 +108,27 @@ public class ChemistryMaterialsMappingTests extends ChemistryMaterialsBaseTest {
         );
 
         getSoftAssert().assertTrue(
-                chemistryMaterialPage.isNoMaterialsMessageVisibleForNode(testNodeTitle),
-                "'No materials added yet.' message should be visible for the created node"
+                chemistryMaterialPage.isNoMaterialsMessageVisibleForNode(
+                        testNodeTitle
+                ),
+                "'No materials added yet.' message should be visible " +
+                        "for the created node"
         );
 
         getSoftAssert().assertTrue(
-                chemistryMaterialPage.isAddMaterialButtonVisibleForNode(testNodeTitle),
+                chemistryMaterialPage.isAddMaterialButtonVisibleForNode(
+                        testNodeTitle
+                ),
                 "Add Material button should be visible for the created node"
         );
 
         chemistryMaterialPage.clickAddMaterialForNode(testNodeTitle);
 
         getSoftAssert().assertTrue(
-                chemistryMaterialPage.isMaterialTopicInputVisibleForNode(testNodeTitle),
+                chemistryMaterialPage.isMaterialTopicInputVisibleForNode(
+                        testNodeTitle
+                ),
                 "Material entry form should appear after clicking Add Material"
         );
-    }
-
-    @AfterMethod(alwaysRun = true)
-    public void cleanupTestData() {
-
-        if (childNodeTitle != null && !childNodeTitle.isBlank()) {
-            DatabaseHandler.delete(
-                    "DELETE FROM syllabus_nodes WHERE title = ?",
-                    childNodeTitle
-            );
-        }
-
-        if (parentNodeTitle != null && !parentNodeTitle.isBlank()) {
-            DatabaseHandler.delete(
-                    "DELETE FROM syllabus_nodes WHERE title = ?",
-                    parentNodeTitle
-            );
-        }
-
-        if (testNodeTitle != null && !testNodeTitle.isBlank()) {
-
-            DatabaseHandler.delete(
-                    "DELETE FROM syllabus_material_resources " +
-                            "WHERE node_id IN " +
-                            "(SELECT node_id FROM syllabus_nodes WHERE title = ?)",
-                    testNodeTitle
-            );
-
-            DatabaseHandler.delete(
-                    "DELETE FROM syllabus_nodes WHERE title = ?",
-                    testNodeTitle
-            );
-        }
     }
 }
